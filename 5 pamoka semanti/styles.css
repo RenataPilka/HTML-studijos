@@ -1,0 +1,47 @@
+h1 {
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: blue;
+margin: 10 0 0 0;
+}
+.header {
+    background-color: rgb(104, 104, 241);
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.header a{
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }  
+  main{
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+    font-size: 12px;
+    background-color:  rgb(104, 104, 241);
+    padding: 1px;
+    margin: 0px;
+  }
+  img { 
+    width:300px; 
+    }
+    .plants{
+        background-color: rgb(146, 205, 146);
+        padding: 20px;
+    }
+    .animals{
+        background-color: aquamarine;
+        padding: 20px;
+    }

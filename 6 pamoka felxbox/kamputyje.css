@@ -1,0 +1,15 @@
+.flex-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: orange;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 500px
+}
+.flex-items{
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    
+}

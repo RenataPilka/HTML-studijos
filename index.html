@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Kontaktų forma </title>
+        <style>
+            h1 {
+            color: rgba(7, 7, 176, 0.856);
+            padding: 10 px;
+            margin: 20px;
+
+            }
+            form {
+            color: rgb(114, 14, 209);
+            font-size: 24px;
+            border: 5px black solid line;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+          rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+          rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+            background-color: rgb(199, 164, 233);
+            box-shadow: 5px;
+            margin: 10px;
+            padding: 20px;
+            }
+            .submit-button
+            {
+                font-size: 16px;
+                text-align: center;
+                padding: 1%;
+                border: none;
+                border-radius: 5px;
+                background-color: rgb(225, 19, 184);
+            }
+            .submit-button:hover 
+            {
+                background-color: rgb(127, 47, 247);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registracijos forma</h1>
+        
+        <form>
+            <label for="name">Vardas</label>
+            <input type="text" id="name" name="name" placeholder="Įrašykite vardą" required/>
+            <br/>
+        <div>
+            <label for="surname">Pavardė</label>
+            <input type="text" id="surname" name="surname" placeholder="Įrašykite pavardę" required/>
+        </div>
+        <div>
+            <div>
+            <label for="email">El. paštas</label>
+            <input type="email" id="email" name="email" placeholder="Įrašykite el. pašto adresą" required/>
+        </div>
+        </div>
+            <label for="password">Slaptažodis</label>
+            <input type="password" id="password" name="password" placeholder="Įrašykite slaptažodį" required/>
+        </div>
+        <div>
+            <input type="reset" value="Išvalyti"/>
+        </div>
+        <div class="submit-button">
+            <!-- /* input type="submit" value="Registruotis" */ -->
+            <button type="submit" class="submit-button">Registruotis</button>
+        </div>
+        
+        </form>
+    </body>
+</html>

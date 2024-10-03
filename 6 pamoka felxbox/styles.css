@@ -1,0 +1,18 @@
+/* body{
+    height: 100vh;
+    background-color: orange; 
+ } */
+.flex-conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: orange;
+    align-items: center;
+    height: 500px;
+}
+.flex-item{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center; 
+    
+}
